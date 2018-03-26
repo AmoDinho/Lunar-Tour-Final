@@ -1,1 +1,23 @@
 // Main Sass File
+
+//Variables
+
+$red: #F45B69;
+$black: #06070E;
+$black2: #2F2F2F;
+$white: #FAF9F9;
+$blue: #56CBF9;
+
+
+ 
+body{
+    font-family: 'Saira', sans-serif;
+
+}
+
+#home{
+    background: url('../img/home-cover.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:700px;
+}

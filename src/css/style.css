@@ -1,0 +1,8 @@
+body {
+  font-family: 'Saira', sans-serif; }
+
+#home {
+  background: url("../img/home-cover.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
