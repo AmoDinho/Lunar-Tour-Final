@@ -15,7 +15,7 @@ body{
 
 }
 
-#home{
+#home, #aboutHome ,#ListingHome{
     background: url('../img/home-cover.jpg') no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -23,9 +23,21 @@ body{
 }
 
 
-#ListingHome{
-        background: url('../img/lunarrovering.jpg') no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    min-height:700px;
-}
+
+
+
+header {
+    position: relative;
+    height: 300px;
+    //background-image: linear-gradient(#ff9d2f, #ff6126);
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(20% - 5vw)
+    );
+   
+  }
+
+
+ /* change the calc height to a percentage height to get alternate responsive behavior*/
