@@ -15,7 +15,7 @@ body{
 
 }
 
-#home, #aboutHome ,#ListingHome{
+#home {
     background: url('../img/home-cover.jpg') no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -23,6 +23,23 @@ body{
 }
 
 
+#ListingHome{
+    background: url('../img/lunarrovering.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:700px;
+}
+
+#aboutHome{
+
+    background: url('../img/lunarrovering.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:700px;
+    
+    
+
+}
 
 
 
@@ -38,6 +55,5 @@ header {
     );
    
   }
-
 
  /* change the calc height to a percentage height to get alternate responsive behavior*/
