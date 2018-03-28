@@ -1,6 +1,13 @@
 body {
   font-family: 'Saira', sans-serif; }
 
+.navbar {
+  border-top: #F45B69 3px solid; }
+
+.class-img-top {
+  width: 100px;
+  height: 250px; }
+
 #home {
   background: url("../img/home-cover.jpg") no-repeat;
   background-size: cover;
@@ -22,6 +29,14 @@ body {
 header {
   position: relative;
   height: 300px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(20% - 5vw)); }
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(20% - 5vw));
+  /* change the calc height to a percentage height to get alternate responsive behavior*/ }
 
-/* change the calc height to a percentage height to get alternate responsive behavior*/
+#listings .fa {
+  height: 10px;
+  width: 10px;
+  color: yellow; }
+
+.card {
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18); }
