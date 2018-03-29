@@ -37,6 +37,19 @@ body{
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
+
+    .btn.viewphotos {
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        padding-top:8px;
+        padding-bottom: 8px;
+        padding-right: 16px !important;
+    padding-left: 16px !important;
+    }
+
+
+  
 }
 
 #aboutHome{
@@ -45,8 +58,6 @@ body{
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
-    
-    
 
 }
 
@@ -65,16 +76,7 @@ header {
     /* change the calc height to a percentage height to get alternate responsive behavior*/
   }
 
-  #listings{
 
-    .fa {
-        height: 10px;
-        width: 10px;
-        color: yellow;
-        
-    }
-
-  }
 
  
 
@@ -84,3 +86,51 @@ header {
 
  }
 
+
+ .btn:hover{
+     background: $blue;
+ }
+
+ .btn-block:hover{
+     background: none;
+ }
+
+ .btn-outline{
+   // border: 2px solid $blue;
+    background: $red;
+    color: $white;
+ }
+
+
+ .btn.btn-outline.back{
+     border: 2px solid $red;
+    // background: $red;
+     color: $white;
+  }
+
+ .fa.fa-star {
+    height: 10px;
+    color:#FFE344;
+    
+}
+
+#comments{
+
+    img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+#main-body{
+    img{
+        height: 120px;
+        width: 150px;
+    }
+
+    .card{
+        border: none;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+   
+    }
+}
