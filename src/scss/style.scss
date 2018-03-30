@@ -59,9 +59,17 @@ body{
     background-attachment: fixed;
     min-height:700px;
 
+    
 }
 
-
+.navbar-toggler{
+   border-bottom-color: $blue;
+//border-bottom-color:
+    border-top:none;
+    border-left: none;
+    border-right: none;
+  
+}
 
 header {
     position: relative;

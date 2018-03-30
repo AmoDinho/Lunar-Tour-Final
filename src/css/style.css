@@ -34,6 +34,12 @@ body {
   background-attachment: fixed;
   min-height: 700px; }
 
+.navbar-toggler {
+  border-bottom-color: #56CBF9;
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
 header {
   position: relative;
   height: 300px;
