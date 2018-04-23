@@ -20,49 +20,10 @@ body{
     
 }
 
-.class-img-top{
-    width:100px;
-     height :250px;
-}
-#home {
-    background: url('../img/home-cover.jpg') no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    min-height:700px;
-}
-
-
-#ListingHome{
-    background: url('../img/lunarrovering.jpg') no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    min-height:700px;
-
-    .btn.viewphotos {
-        cursor: pointer;
-        position: relative;
-        display: inline-block;
-        padding-top:8px;
-        padding-bottom: 8px;
-        padding-right: 16px !important;
-    padding-left: 16px !important;
-    }
-
-
-  
-}
 
 
 
-#aboutHome{
 
-    background: url('../img/about.jpg') no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    min-height:700px;
-
-    
-}
 
 .navbar-toggler{
    border-bottom-color: $blue;
@@ -73,21 +34,16 @@ body{
   
 }
 
-header {
-    position: relative;
-    height: 300px;
-    //background-image: linear-gradient(#ff9d2f, #ff6126);
-    clip-path: polygon(
-      0 0,
-      100% 0,
-      100% 100%,
-      0 calc(20% - 5vw)
-    );
-    /* change the calc height to a percentage height to get alternate responsive behavior*/
-  }
-
-
-
+.class-img-top{
+    width:100px;
+     height :250px;
+}
+#home {
+    background: url('../img/home-cover.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:700px;
+}
  
 
  .card{
@@ -124,6 +80,26 @@ header {
     
 }
 
+#ListingHome{
+    background: url('../img/lunarrovering.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:700px;
+
+    .btn.viewphotos {
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        padding-top:8px;
+        padding-bottom: 8px;
+        padding-right: 16px !important;
+    padding-left: 16px !important;
+    }
+
+
+  
+}
+
 #comments{
 
     img{
@@ -131,6 +107,24 @@ header {
         width: 60px;
     }
 }
+
+header {
+    position: relative;
+    height: 300px;
+    //background-image: linear-gradient(#ff9d2f, #ff6126);
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(20% - 5vw)
+    );
+    /* change the calc height to a percentage height to get alternate responsive behavior*/
+  }
+
+
+
+
+
 
 #main-body{
     img{
@@ -143,4 +137,14 @@ header {
         box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
    
     }
+}
+
+#aboutHome{
+
+    background: url('../img/about.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:700px;
+
+    
 }
