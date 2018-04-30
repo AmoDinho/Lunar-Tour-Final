@@ -34,6 +34,16 @@ body{
   
 }
 
+.container{
+   justify-content: center; 
+}
+
+form{
+    justify-content: center; 
+  align-content: center;
+  align-items: center;
+}
+
 .class-img-top{
     width:100px;
      height :250px;
@@ -43,8 +53,19 @@ body{
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
+
+    .searchButton{
+        background-color: yellow;
+    }
+
+    .btn-outline-secondary{
+        background-color: yellow;
+
+    }
+  
 }
  
+
 
  .card{
      border: none;
