@@ -51,14 +51,19 @@ form{
 #home {
 
     background: url('../img/home-cover.jpg') no-repeat;
+ 
+ -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ /*
     @media(min-width: 576px){
         background: url('../img/earth_mobile.jpg') no-repeat;
 
-    }
+    }*/
     
     background-size:cover;
     background-attachment: fixed;
-    min-height:700px;
+   // min-height:700px;
 
     .searchButton{
         background-color: yellow;
