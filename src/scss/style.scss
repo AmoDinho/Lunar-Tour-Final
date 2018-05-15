@@ -50,24 +50,27 @@ form{
 }
 #home {
 
-    background: url('../img/home-cover.jpg') no-repeat;
-    @media(min-width: 576px){
+   
+    @media(min-width:300px)and (max-width: 576px){
         background: url('../img/earth_mobile.jpg') no-repeat;
 
+        background-size:cover;
+        background-attachment: fixed;
+        min-height:700px;
     }
     
+    //background: url('../img/earth_mobile.jpg') no-repeat;
+    background: url('../img/home-cover.jpg') no-repeat;
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
 
-    .searchButton{
-        background-color: yellow;
-    }
-
     .btn-outline-secondary{
-        background-color: yellow;
-
+        background-color: $red;
+        color: $white;
     }
+
+   
   
 }
  

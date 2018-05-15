@@ -4,6 +4,20 @@ body {
 .navbar {
   border-top: #F45B69 3px solid; }
 
+.navbar-toggler {
+  border-bottom-color: #56CBF9;
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
+.container {
+  justify-content: center; }
+
+form {
+  justify-content: center;
+  align-content: center;
+  align-items: center; }
+
 .class-img-top {
   width: 100px;
   height: 250px; }
@@ -13,38 +27,15 @@ body {
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
-
-#ListingHome {
-  background: url("../img/lunarrovering.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px; }
-  #ListingHome .btn.viewphotos {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 16px !important;
-    padding-left: 16px !important; }
-
-#aboutHome {
-  background: url("../img/about.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px; }
-
-.navbar-toggler {
-  border-bottom-color: #56CBF9;
-  border-top: none;
-  border-left: none;
-  border-right: none; }
-
-header {
-  position: relative;
-  height: 300px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(20% - 5vw));
-  /* change the calc height to a percentage height to get alternate responsive behavior*/ }
+  @media (min-width: 300px) and (max-width: 576px) {
+    #home {
+      background: url("../img/earth_mobile.jpg") no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 700px; } }
+  #home .btn-outline-secondary {
+    background-color: #F45B69;
+    color: #FAF9F9; }
 
 .card {
   border: none;
@@ -68,9 +59,19 @@ header {
   height: 10px;
   color: #FFE344; }
 
-#comments img {
-  height: 60px;
-  width: 60px; }
+#ListingHome {
+  background: url("../img/lunarrovering.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #ListingHome .btn.viewphotos {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px !important;
+    padding-left: 16px !important; }
 
 #main-body img {
   height: 120px;
@@ -79,3 +80,19 @@ header {
 #main-body .card {
   border: none;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18); }
+
+#comments img {
+  height: 60px;
+  width: 60px; }
+
+header {
+  position: relative;
+  height: 300px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(20% - 5vw));
+  /* change the calc height to a percentage height to get alternate responsive behavior*/ }
+
+#aboutHome {
+  background: url("../img/about.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
