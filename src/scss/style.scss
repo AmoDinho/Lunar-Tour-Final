@@ -54,9 +54,12 @@ form{
    
     @media(min-width:300px)and (max-width: 576px){
         background: url('../img/earth_mobile.jpg') no-repeat;
-
-        background-size:cover;
-        background-attachment: fixed;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+      //  background-attachment: fixed;
         //min-height:700px;
     }
 
