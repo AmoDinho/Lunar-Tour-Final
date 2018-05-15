@@ -50,7 +50,7 @@ form{
 }
 #home {
 
-<<<<<<< HEAD
+
    
     @media(min-width:300px)and (max-width: 576px){
         background: url('../img/earth_mobile.jpg') no-repeat;
@@ -59,19 +59,13 @@ form{
         background-attachment: fixed;
         min-height:700px;
     }
-=======
-    background: url('../img/home-cover.jpg') no-repeat;
- 
- -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+
  /*
     @media(min-width: 576px){
         background: url('../img/earth_mobile.jpg') no-repeat;
 
     }*/
->>>>>>> 6b7cc9367be6be527fcd9098f8f2c6b188ac85f4
-    
+
     //background: url('../img/earth_mobile.jpg') no-repeat;
     background: url('../img/home-cover.jpg') no-repeat;
     background-size:cover;
