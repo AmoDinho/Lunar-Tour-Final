@@ -53,10 +53,17 @@ form{
 #home {
 
     
-    background: url('../img/about2.jpg') no-repeat;
+    background: url('../img/about2_mobile.jpg') no-repeat;
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
+@media(min-width:300px)and (max-width: 576px){
+    background: url('../img/about2_mobile.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:700px;
+
+}
 
     /*
    
