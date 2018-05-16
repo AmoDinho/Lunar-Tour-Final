@@ -48,12 +48,17 @@ form{
     width:100px;
      height :250px;
 }
+
+
 #home {
 
-    background: url('../img/home-cover.jpg') no-repeat;
+    
+    background: url('../img/about.jpg') no-repeat;
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
+
+    /*
    
     @media(min-width:300px)and (max-width: 576px){
         background: url('../img/earth_mobile.jpg');
@@ -74,7 +79,7 @@ form{
       //  background-attachment: fixed;
         //min-height:700px;
     }
-
+*/
  /*
     @media(min-width: 576px){
         background: url('../img/earth_mobile.jpg') no-repeat;
