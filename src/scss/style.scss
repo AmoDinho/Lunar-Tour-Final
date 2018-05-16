@@ -191,7 +191,13 @@ form{
     background-attachment: fixed;
     min-height:700px;
 
-    header {
+    
+
+    
+}
+
+/* 
+header {
         position: relative;
         height: 300px;
         //background-image: linear-gradient(#ff9d2f, #ff6126);
@@ -201,8 +207,4 @@ form{
           100% 100%,
           0 calc(20% - 5vw)
         );
-        /* change the calc height to a percentage height to get alternate responsive behavior*/
-      }
-
-    
-}
+        /* change the calc height to a percentage height to get alternate responsive behavior*/ //}   

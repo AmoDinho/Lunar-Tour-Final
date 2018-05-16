@@ -23,16 +23,37 @@ form {
   height: 250px; }
 
 #home {
-  background: url("../img/home-cover.jpg") no-repeat;
+  background: url("../img/about2.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px; }
-  @media (min-width: 300px) and (max-width: 576px) {
-    #home {
-      background: url("../img/earth_mobile.jpg") no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      min-height: 700px; } }
+  min-height: 700px;
+  /*
+   
+    @media(min-width:300px)and (max-width: 576px){
+        background: url('../img/earth_mobile.jpg');
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    max-height:400px;
+    max-width:400px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+      //  background-attachment: fixed;
+        //min-height:700px;
+    }
+*/
+  /*
+    @media(min-width: 576px){
+        background: url('../img/earth_mobile.jpg') no-repeat;
+
+    }*/ }
   #home .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }
@@ -85,14 +106,21 @@ form {
   height: 60px;
   width: 60px; }
 
-header {
-  position: relative;
-  height: 300px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(20% - 5vw));
-  /* change the calc height to a percentage height to get alternate responsive behavior*/ }
-
 #aboutHome {
   background: url("../img/about.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
+
+/* 
+header {
+        position: relative;
+        height: 300px;
+        //background-image: linear-gradient(#ff9d2f, #ff6126);
+        clip-path: polygon(
+          0 0,
+          100% 0,
+          100% 100%,
+          0 calc(20% - 5vw)
+        );
+        /* change the calc height to a percentage height to get alternate responsive behavior*/
