@@ -2,6 +2,7 @@
 
 //Variables
 
+
 $red: #F45B69;
 $black: #06070E;
 $black2: #2F2F2F;
@@ -53,19 +54,20 @@ form{
 #home {
 
     
-    background: url('../img/home-cover.jpg') no-repeat;
+    background: url('../img/home-cover.jpg') no-repeat center center fixed;
     background-size:cover;
-    background-attachment: fixed;
-    min-height:700px;
-
-
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+/*
 @media(min-width:300px)and (max-width: 776px){
     background: url('../img/test.jpg') no-repeat;
     background-size:auto;
     background-attachment: fixed;
     height:500px;
     
-}
+}*/
 
     /*
    
