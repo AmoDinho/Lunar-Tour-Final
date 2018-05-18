@@ -29,14 +29,6 @@ form {
   -moz-background-size: cover;
   -o-background-size: cover;
   /*
-@media(min-width:300px)and (max-width: 776px){
-    background: url('../img/test.jpg') no-repeat;
-    background-size:auto;
-    background-attachment: fixed;
-    height:500px;
-    
-}*/
-  /*
    
     @media(min-width:300px)and (max-width: 576px){
         background: url('../img/earth_mobile.jpg');
@@ -63,6 +55,13 @@ form {
         background: url('../img/earth_mobile.jpg') no-repeat;
 
     }*/ }
+  @media (min-width: 300px) and (max-width: 776px) {
+    #home {
+      background: url("../img/test.jpg") no-repeat center center fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
   #home .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }

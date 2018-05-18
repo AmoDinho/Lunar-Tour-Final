@@ -59,15 +59,15 @@ form{
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  
-/*
+
+
 @media(min-width:300px)and (max-width: 776px){
-    background: url('../img/test.jpg') no-repeat;
-    background-size:auto;
-    background-attachment: fixed;
-    height:500px;
-    
-}*/
+    background: url('../img/test.jpg') no-repeat center center fixed;
+    background-size:cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
     /*
    
