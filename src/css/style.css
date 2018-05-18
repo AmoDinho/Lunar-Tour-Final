@@ -58,10 +58,10 @@ form {
   @media (min-width: 300px) and (max-width: 776px) {
     #home {
       background: url("../img/test.jpg") no-repeat center center fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover; } }
+      background-size: contain;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain; } }
   #home .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }
