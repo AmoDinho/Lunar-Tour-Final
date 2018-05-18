@@ -53,12 +53,14 @@ form{
 #home {
 
     
-    background: url('../img/test.jpg') no-repeat;
+    background: url('../img/home-cover.jpg') no-repeat;
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
-@media(min-width:300px)and (max-width: 576px){
-    background: url('../img/about2_mobile.jpg') no-repeat;
+
+
+@media(min-width:300px)and (max-width: 776px){
+    background: url('../img/test.jpg') no-repeat;
     background-size:cover;
     background-attachment: fixed;
     min-height:700px;
