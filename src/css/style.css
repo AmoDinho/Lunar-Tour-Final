@@ -22,13 +22,12 @@ form {
   width: 100px;
   height: 250px; }
 
-.img-responsive {
+#home {
   background: url("../img/home-cover.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: auto;
   /*
    
     @media(min-width:300px)and (max-width: 576px){
@@ -57,15 +56,13 @@ form {
 
     }*/ }
   @media (min-width: 300px) and (max-width: 776px) {
-    .img-responsive {
+    #home {
       background: url("../img/test.jpg") no-repeat center center fixed;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover;
-      height: auto;
-      max-width: 100%; } }
-  .img-responsive .btn-outline-secondary {
+      -o-background-size: cover; } }
+  #home .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }
 
