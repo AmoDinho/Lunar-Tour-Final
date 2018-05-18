@@ -59,7 +59,8 @@ form {
       background: url("../img/test.jpg") no-repeat;
       background-size: cover;
       background-attachment: fixed;
-      height: 500px; } }
+      height: 500px;
+      text-align: center; } }
   #home .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }
