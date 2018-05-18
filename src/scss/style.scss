@@ -51,7 +51,7 @@ form{
 }
 
 
-#home {
+.img-responsive {
 
     
     background: url('../img/home-cover.jpg') no-repeat center center fixed;
@@ -59,14 +59,17 @@ form{
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  height: auto;
 
 
 @media(min-width:300px)and (max-width: 776px){
     background: url('../img/test.jpg') no-repeat center center fixed;
-    background-size:contain;
-    -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
+    background-size:cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: auto;
+  max-width: 100%;
 }
 
     /*
