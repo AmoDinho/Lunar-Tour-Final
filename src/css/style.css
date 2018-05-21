@@ -22,9 +22,12 @@ form {
   width: 100px;
   height: 250px; }
 
-#home {
-  background: url("../img/home-cover.jpg") no-repeat center center fixed;
+header {
+  background: url("../img/home-cover.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,13 +59,16 @@ form {
 
     }*/ }
   @media (min-width: 300px) and (max-width: 776px) {
-    #home {
-      background: url("../img/test.jpg") no-repeat center center fixed;
+    header {
+      background: url("../img/test.jpg");
       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover; } }
-  #home .btn-outline-secondary {
+  header .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }
 

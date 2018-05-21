@@ -51,11 +51,14 @@ form{
 }
 
 
-#home {
+header {
 
     
-    background: url('../img/home-cover.jpg') no-repeat center center fixed;
+    background: url('../img/home-cover.jpg');
     background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -63,8 +66,11 @@ form{
 
 
 @media(min-width:300px)and (max-width: 776px){
-    background: url('../img/test.jpg') no-repeat center center fixed;
+    background: url('../img/test.jpg');
     background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
