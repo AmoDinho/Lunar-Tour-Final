@@ -62,19 +62,13 @@ header {
   @media (min-width: 300px) and (max-width: 776px) {
     header {
       background: url("../img/test.jpg");
-      background-size: cover;
+      background-size: 300px 100px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover;
-      width: 100vw;
-      -webkit-flex: 0 0 auto;
-      -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-      margin: 5px;
-      width: calc(25% - 10px); } }
+      -o-background-size: cover; } }
   header .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }
