@@ -23,15 +23,13 @@ form {
   height: 250px; }
 
 header {
-  background: url("../img/home-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  width: 100vw;
   /*
    
     @media(min-width:300px)and (max-width: 576px){
@@ -62,10 +60,10 @@ header {
   @media (min-width: 300px) and (max-width: 776px) {
     header {
       background: url("../img/test.jpg");
-      background-size: 300px 100px;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      background-attachment: fixed;
+      background-attachment: scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover; } }
