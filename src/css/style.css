@@ -31,8 +31,7 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
   /*
    
     @media(min-width:300px)and (max-width: 576px){
@@ -69,7 +68,8 @@ header {
       background-attachment: fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover; } }
+      -o-background-size: cover;
+      width: 100vw; } }
   header .btn-outline-secondary {
     background-color: #F45B69;
     color: #FAF9F9; }
