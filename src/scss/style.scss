@@ -68,7 +68,7 @@ header {
 
 
 @media(min-width:300px)and (max-width: 776px){
-    background: url('../img/test.jpg');
+    background: image-set(url('../img/test.jpg'));
     background-size:300px 100px;
     background-repeat: no-repeat;
     background-position: center center;
