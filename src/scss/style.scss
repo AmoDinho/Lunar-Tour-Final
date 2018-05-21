@@ -78,6 +78,11 @@ header {
   -o-background-size: cover;
   width: 100vw;
 
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+margin: 5px;
+width: calc(25% - 10px);
  
 }
 
