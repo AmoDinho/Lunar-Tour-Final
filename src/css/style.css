@@ -23,7 +23,7 @@ form {
   height: 250px; }
 
 header {
-  background: url("../img/home-cover.jpg");
+  background: url("../img/messi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -61,7 +61,7 @@ header {
     }*/ }
   @media (min-width: 300px) and (max-width: 776px) {
     header {
-      background: image-set(url("../img/test.jpg"));
+      background: url("../img/messi.jpg");
       background-size: 300px 100px;
       background-repeat: no-repeat;
       background-position: center center;
