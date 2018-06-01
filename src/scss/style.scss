@@ -58,14 +58,14 @@ form{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;    
+    background-attachment: fixed;    
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 
  
   
-/*
+
 
 @media(min-width:300px)and (max-width: 776px){
     background: url('../img/test.jpg');
@@ -79,7 +79,7 @@ form{
   
  
 }
-*/
+
     /*
    
     @media(min-width:300px)and (max-width: 576px){
@@ -161,7 +161,7 @@ form{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -217,7 +217,7 @@ form{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;   
+    background-attachment: fixed;   
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
