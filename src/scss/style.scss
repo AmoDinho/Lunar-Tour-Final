@@ -51,7 +51,7 @@ form{
 }
 
 
-header {
+#home{
 
     
     background: url('../img/home-cover.jpg');
@@ -65,7 +65,7 @@ header {
 
  
   
-
+/*
 
 @media(min-width:300px)and (max-width: 776px){
     background: url('../img/test.jpg');
@@ -79,7 +79,7 @@ header {
   
  
 }
-
+*/
     /*
    
     @media(min-width:300px)and (max-width: 576px){
@@ -157,10 +157,15 @@ header {
 }
 
 #ListingHome{
-    background: url('../img/lunarrovering.jpg') no-repeat;
+    background: url('../img/lunarrovering.jpg');
     background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
-    min-height:700px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
 
     .btn.viewphotos {
         cursor: pointer;
@@ -208,17 +213,21 @@ header {
 
 #aboutHome{
 
-    background: url('../img/about.jpg') no-repeat;
+    background: url('../img/about.jpg');
     background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
-    min-height:700px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 
     
 
     
 }
 
-/* 
+ 
 header {
         position: relative;
         height: 300px;
@@ -229,4 +238,6 @@ header {
           100% 100%,
           0 calc(20% - 5vw)
         );
-        /* change the calc height to a percentage height to get alternate responsive behavior*/ //}   
+        /* change the calc height to a percentage height to get alternate responsive behavior*/ 
+        
+        }   
