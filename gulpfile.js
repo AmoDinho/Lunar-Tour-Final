@@ -1,7 +1,7 @@
 const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass        = require('gulp-sass');
-//const imageResize   = require('gulp-image-resize');
+const imageResize   = require('gulp-image-resize');
 
 // Compile Sass & Inject Into Browser
 gulp.task('sass', function() {
@@ -41,7 +41,7 @@ gulp.task('fa', function() {
     .pipe(gulp.dest('src/css'))
 })
 
-/*
+/
 
 //Task for resizing images
 
@@ -54,7 +54,7 @@ gulp.task('size', function(){
       crop: false,
       upscale: false
     }))
-    .pipe(gulp.dest('src/img/resized'));
-});*/ 
+    .pipe(gulp.dest('src/img/resized'))
+})
 
-gulp.task('default', ['js','serve', 'fa', 'fonts']);
+gulp.task('default', ['js','serve', 'fa', 'fonts', 'size']);
