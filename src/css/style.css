@@ -41,7 +41,7 @@ form {
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover; } }
-  @media (min-width: 768px) and (max-width: 2736px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
     #home {
       background: url("../img/test.jpg");
       background-size: cover;
