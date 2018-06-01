@@ -33,7 +33,17 @@ form {
   -o-background-size: cover; }
   @media (min-width: 300px) and (max-width: 776px) {
     #home {
-      background: url("../img/resized/home-cover.jpg");
+      background: url("../img/test.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
+  @media (min-width: 768px) and (max-width: 2736px) {
+    #home {
+      background: url("../img/test.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;

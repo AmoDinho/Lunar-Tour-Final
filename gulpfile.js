@@ -44,7 +44,7 @@ gulp.task('fa', function() {
 /
 
 //Task for resizing images
-
+//Need add a rename method
 gulp.task('size', function(){
 
   gulp.src('src/img/home-cover.jpg')
